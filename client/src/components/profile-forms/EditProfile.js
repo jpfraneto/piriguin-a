@@ -11,7 +11,6 @@ import {
   faLinkedin,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 const EditProfile = ({
   profile: { profile, loading },
@@ -54,7 +53,7 @@ const EditProfile = ({
       instagram: loading || !profile.social ? '' : profile.social.instagram,
       linkedin: loading || !profile.social ? '' : profile.social.linkedin,
     });
-  }, [loading]);
+  }, [loading, getCurrentProfile]);
 
   const {
     company,

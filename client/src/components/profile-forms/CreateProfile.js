@@ -11,7 +11,6 @@ import {
   faLinkedin,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
-import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 const CreateProfile = ({ createProfile, history }) => {
   const [formData, setFormData] = useState({
