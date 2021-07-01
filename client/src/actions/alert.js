@@ -1,6 +1,10 @@
+//This is the alert action, an object describing what happened and that is dispatched to
+// the store where the global state is stored.
+
 import { v4 as uuid } from 'uuid';
 import { SET_ALERT, REMOVE_ALERT } from './types';
 
+//This is an action called setAlert
 export const setAlert =
   (msg, alertType, timeout = 5000) =>
   dispatch => {
