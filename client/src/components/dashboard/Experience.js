@@ -24,20 +24,20 @@ const Experience = ({ experience, deleteExperience }) => {
           }}
           className='btn btn-danger'
         >
-          Delete
+          Borrar
         </button>
       </td>
     </tr>
   ));
   return (
     <Fragment>
-      <h2 className='my-2'>Experience Credentials</h2>
+      <h2 className='my-2'>Experiencia Laboral</h2>
       <table className='table'>
         <thead>
           <tr>
-            <th className='hide-sm'>Company</th>
-            <th className='hide-sm'>Title</th>
-            <th>Years</th>
+            <th className='hide-sm'>Empresa</th>
+            <th className='hide-sm'>Título</th>
+            <th>Años</th>
             <th />
           </tr>
         </thead>

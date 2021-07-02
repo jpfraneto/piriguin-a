@@ -24,20 +24,20 @@ const Education = ({ education, deleteEducation }) => {
           }}
           className='btn btn-danger'
         >
-          Delete
+          Borrar
         </button>
       </td>
     </tr>
   ));
   return (
     <Fragment>
-      <h2 className='my-2'>Education Credentials</h2>
+      <h2 className='my-2'>Educacion</h2>
       <table className='table'>
         <thead>
           <tr>
-            <th className='hide-sm'>School</th>
-            <th className='hide-sm'>Degree</th>
-            <th>Years</th>
+            <th className='hide-sm'>Escuela</th>
+            <th className='hide-sm'>Título</th>
+            <th>Años</th>
             <th />
           </tr>
         </thead>

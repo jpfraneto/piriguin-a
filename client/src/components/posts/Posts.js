@@ -15,7 +15,7 @@ const Posts = ({ getPosts, post: { posts, loading } }) => {
   ) : (
     <Fragment>
       <h1 className='large text-primary'>Posts</h1>
-      <p className='lead'>Welcome to the community</p>
+      <p className='lead'>Bienvenid@ a la comunidad</p>
       <PostForm />
       <div className='posts'>
         {posts.map(post => (
