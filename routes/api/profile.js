@@ -274,9 +274,7 @@ router.put(
 
     try {
       const profile = await Profile.findOne({ user: req.user.id });
-      console.log('ACa!!');
       profile.education.unshift(newEdu);
-      console.log('Allaaaa');
 
       await profile.save();
 
